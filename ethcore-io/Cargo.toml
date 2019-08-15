@@ -1,0 +1,21 @@
+[package]
+description = "Ethcore IO library"
+homepage = "http://parity.io"
+license = "GPL-3.0"
+name = "ethcore-io"
+version = "1.12.0"
+authors = ["Parity Technologies <admin@parity.io>"]
+edition = "2018"
+
+[dependencies]
+deque = { package = "crossbeam-deque", version = "0.6" }
+fnv = "1.0"
+futures = "0.1"
+log = "0.4"
+mio = { version = "0.6.8", optional = true }
+num_cpus = "1.8"
+parking_lot = "0.9.0"
+slab = "0.4"
+time = "0.1"
+timer = "0.2"
+tokio = "0.1"

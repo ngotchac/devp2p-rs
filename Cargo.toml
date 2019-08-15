@@ -1,0 +1,7 @@
+[workspace]
+members = [
+	"ethcore-devp2p",
+	"ethcore-io",
+	"ethcore-network",
+	"ethkey",
+]
